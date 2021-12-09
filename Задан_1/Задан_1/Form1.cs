@@ -15,6 +15,10 @@ namespace Zadan_1
         public Form1()
         {
             InitializeComponent();
+            Text = "Hello";
+            this.BackColor = Color.Orange;
+            this.Width = 300;
+            this.Height = 300;
         }
 
     }
